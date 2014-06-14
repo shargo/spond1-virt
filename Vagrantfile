@@ -4,6 +4,6 @@ Vagrant.configure('2') do |config|
   config.vm.provision :shell, :path => "setup.sh"
   config.vm.provider :virtualbox do |vb|
     vb.name = "spond1"
-    v.memory = 1024
+    vb.memory = 1024
   end
 end
