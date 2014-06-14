@@ -1,4 +1,4 @@
-apt-get -y install autoconf automake libtool git pkg-config g++ unzip whois cpio
+apt-get -y install autoconf automake libtool git pkg-config g++ unzip whois cpio ncurses-dev u-boot-tools
 
 echo LC_ALL=en_US.UTF-8 >> /etc/environment
 echo LANG=en_US.UTF-8 >> /etc/environment
